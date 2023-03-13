@@ -68,7 +68,9 @@ export default function LoginForm() {
 				</div>
 				<div id="register-link" className="even-flex-row">
 					<a href="./register/enterprise" className="text-info">Register enterprise</a>
-					<a href="#" className="form-mode-switch">{`${mode === "normal" ? "Admin":"Normal"} mode`}</a>
+					<a href="#" className="form-mode-switch" onClick={() => setMode(mode === "normal"? "admin": "normal")}>
+					  {`${mode === "normal" ? "Admin":"Normal"} mode`}
+					</a>
 					<a href="./register/regulatory" className="text-info">Register regulatory</a>
 				</div>
 			</form>

@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.form-body {
+	width: 80%;
+}
+#login-form-container {
+	display: flex;
+    justify-content: center;
+}
+#form-container {
+	display: flex;
+    justify-content: center;
+}
+#insertForm {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.even-flex-row{
+	display: flex;
+	justify-content: space-around;
+}
+.form-group{
+    width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.form-group> label{
+	padding: 1rem;
+}
+
+#data-table {
+	background-color: white;
+}
+
+.table-head {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.25rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem
+}
